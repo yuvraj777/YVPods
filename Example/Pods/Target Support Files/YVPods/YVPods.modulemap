@@ -1,0 +1,6 @@
+framework module YVPods {
+  umbrella header "YVPods-umbrella.h"
+
+  export *
+  module * { export * }
+}
