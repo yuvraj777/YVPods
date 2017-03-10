@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		D82BD8991E719419006BFB3A /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = D82BD8981E719419006BFB3A /* .swift-version */; };
 		FF220D6C4845679389685330 /* Pods_YVPods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22880E40470DDF78F2A747C5 /* Pods_YVPods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,11 +30,11 @@
 
 /* Begin PBXFileReference section */
 		00E27A2C570CD7FE66EA40D0 /* Pods-YVPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVPods_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YVPods_Example/Pods-YVPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1F5BD24A9E673009F312AA57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1F5BD24A9E673009F312AA57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		22880E40470DDF78F2A747C5 /* Pods_YVPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YVPods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		272EE3802846A677EAEFA254 /* Pods-YVPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVPods_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YVPods_Tests/Pods-YVPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		398EEE914EED50769B7ADB60 /* Pods-YVPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVPods_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YVPods_Example/Pods-YVPods_Example.release.xcconfig"; sourceTree = "<group>"; };
-		57404211F8BB2F2449E58F16 /* YVPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YVPods.podspec; path = ../YVPods.podspec; sourceTree = "<group>"; };
+		57404211F8BB2F2449E58F16 /* YVPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YVPods.podspec; path = ../YVPods.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YVPods_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YVPods_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +46,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6CE108B4B0DF9106067C3FDE /* Pods-YVPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVPods_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YVPods_Tests/Pods-YVPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C70AD8DBF93B93B961EB8A3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C70AD8DBF93B93B961EB8A3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D82BD8981E719419006BFB3A /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		EFAC6EA6C79B93BF3E4FB1DD /* Pods_YVPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YVPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				57404211F8BB2F2449E58F16 /* YVPods.podspec */,
+				D82BD8981E719419006BFB3A /* .swift-version */,
 				1F5BD24A9E673009F312AA57 /* README.md */,
 				C70AD8DBF93B93B961EB8A3D /* LICENSE */,
 			);
@@ -248,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82BD8991E719419006BFB3A /* .swift-version in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
